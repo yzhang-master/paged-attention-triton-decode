@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-14T12:41:24.054113+01:00",
+  "environment": {
+    "python": "3.12.3",
+    "torch": "2.15.0+cpu",
+    "cuda_available": false
+  },
+  "status": "pending",
+  "reason": "CUDA GPU unavailable; CPU interpreter timings are not performance data",
+  "correctness_smoke": {
+    "status": "correctness_only",
+    "device": "cpu",
+    "triton_execution": "interpreter",
+    "lengths": [
+      1,
+      5,
+      9,
+      14
+    ],
+    "max_absolute_error": 1.7881393432617188e-07,
+    "performance_data": false
+  }
+}
